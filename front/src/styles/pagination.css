@@ -1,0 +1,17 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination div{
+    cursor: pointer;
+    padding: 3px 10px;
+}
+
+.pagination .current{
+    background: #eb8d3c;
+    border-radius: 3px;
+    cursor: auto;
+    color:white;
+}

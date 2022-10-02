@@ -1,0 +1,100 @@
+.login-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 360px;
+    margin: auto;
+}
+.login-page h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.login-page .submit{
+    margin-top: 20px;
+    background: #eb8d3c;
+    color:white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-page .submit .icon{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.login-page .submit .loader{
+    width: 15px;
+    height: 15px;
+    border-width: 2px;
+    /*margin: auto;*/
+}
+.login-page .logo{
+    margin-bottom: 50px;
+}
+
+.login-page form{
+    width: 100%;
+}
+
+.login-page .text-before-form p{
+    margin: 0 0 20px 0;
+    font-weight: 200;
+    font-size: 12px;
+}
+.form-input{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+    align-items: center;
+
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkbox label{
+    font-size: 12px;
+}
+.form-input input{
+    width: 100%;
+    transition: .2s;
+}
+.form-input input[type="text"], .form-input input[type="password"]{
+    padding: 10px 10px 10px 25px;
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    outline: 0 !important;
+    background: white;
+}
+
+
+.form-input input[type="text"]:focus, .form-input input[type="password"]:focus{
+    color: #eb8d3c;
+    border-color: #eb8d3c;
+}
+
+.form-input img{
+    left: 8px;
+    width: 17px;
+    position: absolute;
+}

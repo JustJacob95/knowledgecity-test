@@ -1,0 +1,31 @@
+body, html, #app{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #f3f3f3;
+    font-family: 'Rubik', sans-serif;
+}
+
+.loader {
+    border: 7px solid #f3f3f3;
+    border-top: 7px solid #eb8d3c;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.child-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

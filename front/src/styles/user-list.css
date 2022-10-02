@@ -1,0 +1,46 @@
+.user-list h1{
+    font-weight: 400;
+    text-align: center;
+}
+
+.logout-link{
+    text-align: center;
+    cursor: pointer;
+}
+.custom-table{
+    width: 80vw;
+    margin: 20px auto;
+    border-top: 15px solid #eb8d3c;
+    font-size: 14px;
+    color: #484848
+}
+
+.custom-table .row{
+    background: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.custom-table .row .info .username{
+    margin-bottom: 10px;
+}
+.custom-table .row .info .name{
+    color: #727272
+}
+.custom-table .row .action-buttons{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.custom-table .row .status{
+    width: 100px;
+    text-align: center;
+}
+.custom-table .row .info{
+    flex-grow: 1;
+}
+.custom-table .row:nth-child(odd){
+
+    background: white;
+}
