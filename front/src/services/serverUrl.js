@@ -1,2 +1,2 @@
-const serverUrl = 'http://knowledgecity.my';
+const serverUrl = '';
 export default serverUrl;
